@@ -1,6 +1,6 @@
 'use strict';
 
-const HomePage = require('./pages/home/home.page');
+const HomePage = require('./pages/home/home.page.guest');
 const UserPage = require('./pages/user.page');
 const SignUpPage = require('./pages/sign_up.page');
 const SettingsPage = require('./pages/settings.page');

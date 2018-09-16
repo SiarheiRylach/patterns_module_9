@@ -3,7 +3,7 @@
 const MasterPage = require('../master/master.page');
 const Sign = require('./sign.form');
 
-class HomePage extends MasterPage{
+class HomePageGuest extends MasterPage{
 
     constructor() {
         super();
@@ -21,4 +21,4 @@ class HomePage extends MasterPage{
 }
 
 
-module.exports = HomePage;
+module.exports = HomePageGuest;
